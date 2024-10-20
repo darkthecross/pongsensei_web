@@ -1,12 +1,12 @@
 import Navbar from "./navbar";
 
-const About = () => {
+const NoPage = () => {
     return (
         <>
             <Navbar />
-            <h1>About</h1>
+            <h1>NoPage</h1>
         </>
     );
 };
 
-export default About;
+export default NoPage;
