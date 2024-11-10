@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from "./navbar";
+import Footer from "./footer";
 import Demo from "./demo";
 import './home.css';
 
@@ -30,6 +31,7 @@ function Home() {
                     </div>
                     <div className="col-2" />
                 </div>
+                <Footer />
             </div>
         </>
     );
