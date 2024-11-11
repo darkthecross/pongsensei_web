@@ -1,4 +1,6 @@
 import './footer.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
+import swanpng from "../assets/swan.png";
 
 function Footer() {
     return (
@@ -12,13 +14,13 @@ function Footer() {
                     </div>
                     <div className="col-6 col-md">
                         <h5>Contacts</h5>
-                        <ul className="list-unstyled text-small"><li className="text-muted"> <i className="fas fa-envelope"></i> <a className="u-email text-muted" href="mailto:info@pongsensei.com">info@pongsensei.com</a></li></ul>
+                        <ul className="list-unstyled text-small"><li className="text-muted"> <i className="bi bi-envelope"></i> <a className="u-email text-muted" href="mailto:info@pongsensei.com">info@pongsensei.com</a></li></ul>
                     </div>
                     <div className="col-18 col-md">
                         <h5>Links</h5>
                         <ul className="list-unstyled text-small">
-                            <li>This site was made with: <a className="text-muted" target="_blank" href="http://jekyllrb.com"><i className="fas fa-vial"></i>Jekyll</a></li>
-                            <li>Hosted with ❤ by : <a className="text-muted" target="_blank" href="http://github.com"> <i className="fab fa-github-square"></i> Github</a></li>
+                            <li>Hosted with ❤ by : <a className="text-muted" target="_blank" href="http://github.com"> <i className="bi bi-github"></i> Github</a></li>
+                            <li>Data Collected at: <a className="text-muted" target="_blank" href="http://www.swanpp.com"> <img src={swanpng} width="19" height="19" /> Swan Ping Pong</a></li>
                         </ul>
                     </div>
                 </div>
