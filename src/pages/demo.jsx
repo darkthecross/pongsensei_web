@@ -1,5 +1,6 @@
-import Navbar from "./navbar";
-import MainVideo from "./main_video";
+import ReactPlayer from 'react-player/file';
+import demo_original from '../assets/demo_original.mp4';
+import demo_processed from '../assets/demo_processed.mp4';
 
 import Navbar from "./navbar";
 import Footer from "./footer";

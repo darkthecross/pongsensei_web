@@ -3,7 +3,6 @@ import About from "./pages/about";
 import Demo from "./pages/demo";
 import Home from "./pages/home";
 import NoPage from "./pages/nopage";
-import Demo from "./pages/demo";
 
 function App() {
 
@@ -14,7 +13,6 @@ function App() {
         <Route index element={<Home />} />
         <Route path="demo" element={<Demo />} />
         <Route path="about" element={<About />} />
-        <Route path="demo" element={<Demo />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
