@@ -10,8 +10,8 @@ function Home() {
             <div className="container-fluid main pt-4">
                 <div className="row py-lg-4">
                     <div className="col-12">
-                        <h1 className="fw-light px-lg-5">PongSensei</h1>
-                        <p className="lead text-body-secondary px-lg-5">Revolutionizing table tennis video analysis.</p>
+                        <h1 className="fw-light px-lg-5 main_content">PongSensei</h1>
+                        <p className="lead text-body-secondary px-lg-5 main_content">Revolutionizing table tennis video analysis.</p>
                     </div>
                 </div>
                 <div className="row py-lg-4">
@@ -23,13 +23,6 @@ function Home() {
                     </div>
                     <div className="col-2" />
                 </div>
-                {/* <div className="row py-lg-4">
-                    <div className="col-2" />
-                    <div className="col-8">
-                        <Demo processed={processed} />
-                    </div>
-                    <div className="col-2" />
-                </div> */}
             </div>
             <Footer />
         </>
