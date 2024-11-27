@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import Footer from "./footer";
 import './home.css';
 
 function Home() {
@@ -33,6 +34,7 @@ function Home() {
                     </div>
                     <div className="col-2" />
                 </div>
+                <Footer />
             </div>
         </>
     );
