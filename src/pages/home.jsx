@@ -1,16 +1,13 @@
-import { useState } from 'react'
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Demo from "./demo";
+import {Link} from "react-router-dom";
 import './home.css';
 
 function Home() {
-    const [processed, setProcessed] = useState(false);
-
     return (
         <>
-            <div className="container-fluid">
-                <Navbar />
+            <Navbar />
+            <div className="container-fluid main pt-4">
                 <div className="row py-lg-4">
                     <div className="col-12">
                         <h1 className="fw-light px-lg-5">PongSensei</h1>
@@ -18,21 +15,23 @@ function Home() {
                     </div>
                 </div>
                 <div className="row py-lg-4">
-                    <div className="col-2"/>
+                    <div className="col-2" />
                     <div className="col-8">
-                    <button className="btn btn-primary" onClick={() => setProcessed(!processed)}>Analyze the demo</button>
+                        <Link to="demo">
+                            <button className="btn btn-primary">Show me the demo</button>
+                        </Link>
                     </div>
-                    <div className="col-2"/>
+                    <div className="col-2" />
                 </div>
-                <div className="row py-lg-4">
+                {/* <div className="row py-lg-4">
                     <div className="col-2" />
                     <div className="col-8">
                         <Demo processed={processed} />
                     </div>
                     <div className="col-2" />
-                </div>
-                <Footer />
+                </div> */}
             </div>
+            <Footer />
         </>
     );
 };
