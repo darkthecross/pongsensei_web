@@ -6,8 +6,10 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 
 const Demo = ({ processed }) => {
-    let original_style = processed ? "d-none" : "d-block";
-    let demo_style = processed ? "d-block" : "d-none";
+    // let original_style = processed ? "d-none" : "d-block";
+    // let demo_style = processed ? "d-block" : "d-none";
+    let original_style = "d-none";
+    let demo_style = "d-block";
     return (
         <>
             <Navbar />
