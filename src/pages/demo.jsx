@@ -15,11 +15,14 @@ const Demo = ({ processed }) => {
             <Navbar />
             <div className="container-fluid main">
                 <div className="row py-lg-4">
-                    <div className="col-12">
+                    {/* <div className="col-12">
                         <ReactPlayer className={`player player-orginal ${original_style}`} key={original_style} url={demo_original} playing={true} muted={true} loop={true} width="100%" height="auto" />
                     </div>
                     <div className="col-12">
                         <ReactPlayer className={`player player-demo ${demo_style}`} key={demo_style} url={demo_processed} playing={true} muted={true} loop={true} width="100%" height="auto" />
+                    </div> */}
+                    <div className="col-12">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RU4qSbICbzs?si=oXdmRsbjgJGG7qXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
