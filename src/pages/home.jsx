@@ -1,12 +1,13 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
+import {Link} from "react-router-dom";
 import './home.css';
 
 function Home() {
     return (
         <>
             <Navbar />
-            <div className="container-fluid">
+            <div className="container-fluid main pt-4">
                 <div className="row py-lg-4">
                     <div className="col-12">
                         <h1 className="fw-light px-lg-5 main_content">PongSensei</h1>
@@ -16,26 +17,14 @@ function Home() {
                 <div className="row py-lg-4">
                     <div className="col-2" />
                     <div className="col-8">
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <Link to="demo">
+                            <button className="btn btn-primary">Show me the demo</button>
+                        </Link>
                     </div>
                     <div className="col-2" />
                 </div>
-                <div className="row py-lg-4">
-                    <div className="col-2" />
-                    <div className="col-8">
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                    <div className="col-2" />
-                </div>
-                <div className="row py-lg-4">
-                    <div className="col-2" />
-                    <div className="col-8">
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                    <div className="col-2" />
-                </div>
-                <Footer />
             </div>
+            <Footer />
         </>
     );
 };
