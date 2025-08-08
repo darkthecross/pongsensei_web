@@ -11,7 +11,7 @@ function Home() {
                 <div className="row py-lg-4">
                     <div className="col-12">
                         <h1 className="fw-light px-lg-5 main_content">PongSensei</h1>
-                        <p className="lead text-body-secondary px-lg-5 main_content">Revolutionizing table tennis video analysis.</p>
+                        <p className="lead text-body-secondary px-lg-5 main_content">Affordable professional table tennis video analysis for all.</p>
                     </div>
                 </div>
                 <div className="row py-lg-4">
