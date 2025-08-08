@@ -1,4 +1,4 @@
-import ReactPlayer from 'react-player/file';
+import player_stats from '../assets/player_stats.png';
 import left_serve from '../assets/left_serve.png';
 import right_serve from '../assets/right_serve.png';
 import left_winning from '../assets/left_winning.png';
@@ -14,6 +14,12 @@ const Demo = ({ processed }) => {
                 <div className="row py-lg-4">
                     <div className="col-8 offset-2">
                         <iframe width="960" height="540" src="https://www.youtube.com/embed/bol3ocU27Vs?si=_uTPr-xFiwVR5np9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div className="row py-lg-4">
+                    <h1 className="fw-light px-lg-5 main_content">Player Stats</h1>
+                    <div className="col-8 offset-2">
+                        <img className="img-fluid" src={player_stats} alt="Player Stats" />
                     </div>
                 </div>
                 <div className="row py-lg-4">
