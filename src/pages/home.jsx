@@ -1,6 +1,6 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './home.css';
 
 function Home() {
@@ -17,8 +17,17 @@ function Home() {
                 <div className="row py-lg-4">
                     <div className="col-2" />
                     <div className="col-8">
-                        <Link to="demo">
-                            <button className="btn btn-primary">Show me the demo</button>
+                        <Link to="demo_1">
+                            <button className="btn btn-primary">demo 1</button>
+                        </Link>
+                    </div>
+                    <div className="col-2" />
+                </div>
+                <div className="row py-lg-4">
+                    <div className="col-2" />
+                    <div className="col-8">
+                        <Link to="demo_2">
+                            <button className="btn btn-primary">demo 2</button>
                         </Link>
                     </div>
                     <div className="col-2" />

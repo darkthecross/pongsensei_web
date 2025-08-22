@@ -11,12 +11,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route index element={<Home />} />
-        <Route path="demo" element={<Demo />} />
+        <Route path="demo_1" element={<Demo id={1} />} />
+        <Route path="demo_2" element={<Demo id={2} />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   )
-}
+};
 
 export default App;
