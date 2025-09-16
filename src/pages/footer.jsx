@@ -5,7 +5,7 @@ import swanpng from "../assets/swan.png";
 function Footer() {
     return (
         <>
-            <div className="pt-4 my-md-5 pt-md-5 border-top container-fluid">
+            <div className="pt-4 my-md-5 pt-md-5 border-top container-fluid bg-dark" data-bs-theme="dark">
                 <div className="row">
                     <div className="col col-md">
                         <img className="mb-2" src="/assets/favicon.png" alt="" width="24" />
