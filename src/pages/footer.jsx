@@ -10,7 +10,7 @@ function Footer() {
                     <div className="col col-md">
                         <img className="mb-2" src="/assets/favicon.png" alt="" width="24" />
                         <h4>PongSensei</h4>
-                        <small className="d-block mb-3 text-muted">&copy; 2024</small>
+                        <small className="d-block mb-3 text-muted">&copy; 2025</small>
                     </div>
                     <div className="col col-md">
                         <h5>Contacts</h5>
