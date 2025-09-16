@@ -39,6 +39,32 @@
   width: 70vw;
 }
 
+.main-content .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content .row > [class*='col-'] {
+  display: flex;
+}
+
+.home-cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-cards .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-cards .card-text {
+  flex: 1;
+}
+
 @keyframes fadein {
   0% {
     opacity: 0.1;
