@@ -5,7 +5,7 @@ const Wiki = () => {
     return (
         <>
             <Navbar />
-            <div className="container-fluid main main-content">
+            <div className="container-fluid main">
                 <div className="row py-lg-4">
                     <div className="col-8 offset-2">
                         <h1>Wiki - Everything you want to know!</h1>

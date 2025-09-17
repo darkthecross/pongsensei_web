@@ -39,9 +39,9 @@ function Home() {
                     </div>
                 </div>
                 <div className="main-content">
-                    <div className="row py-2">
-                        <div className="col-3">
-                            <div className="card home-cards">
+                    <div className="row py-2 g-3">
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="card home-cards h-100">
                                 <img src={clip_img} className="card-img-top" alt="Auto-clipping illustration" style={{ backgroundColor: '#505050' }} />
                                 <div className="card-body">
                                     <h5 className="card-title">Auto-clipping</h5>
@@ -49,8 +49,8 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3">
-                            <div className="card home-cards">
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="card home-cards h-100">
                                 <img src={enhancement_img} className="card-img-top" alt="Auto-enhancing illustration" style={{ backgroundColor: '#505050' }} />
                                 <div className="card-body">
                                     <h5 className="card-title">Auto-enhancing</h5>
@@ -59,8 +59,8 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="col-3">
-                            <div className="card home-cards">
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="card home-cards h-100">
                                 <img src={stats_img} className="card-img-top" alt="Strike skill statistics illustration" style={{ backgroundColor: '#505050' }} />
                                 <div className="card-body">
                                     <h5 className="card-title">AI powered technique statistics</h5>
@@ -69,8 +69,8 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="col-3">
-                            <div className="card home-cards">
+                        <div className="col-12 col-sm-6 col-lg-3">
+                            <div className="card home-cards h-100">
                                 <img src={placement_img} className="card-img-top" alt="Ball placement statistics illustration" style={{ backgroundColor: '#505050' }} />
                                 <div className="card-body">
                                     <h5 className="card-title">AI powered ball placement statistics</h5>
