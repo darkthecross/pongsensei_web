@@ -82,8 +82,11 @@ function Home() {
                 </div>
                 <div className="main-content ml-5">
                     <div className="col-12">
-                        <p className="alert alert-secondary">We are still under development, you may poke into the <Link to="demo">demo</Link> to see whatwe have today.</p>
-
+                        <p className="alert alert-secondary">We are still under development, you may poke into the demos to see whatwe have today.<br />
+                            <Link to="demo_1">demo_1</Link><br />
+                            <Link to="demo_2">demo_2</Link><br />
+                            <Link to="demo_3">demo_3</Link><br />
+                        </p>
                     </div>
                 </div>
             </div>
