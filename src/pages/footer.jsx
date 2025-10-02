@@ -1,6 +1,7 @@
 import './footer.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import swanpng from "../assets/swan.png";
+import mmtta from "../assets/mmtta.avif";
 
 function Footer() {
     return (
@@ -20,7 +21,8 @@ function Footer() {
                         <h5>Links</h5>
                         <ul className="list-unstyled text-small">
                             <li>Hosted with ❤ by : <a className="text-muted" target="_blank" href="http://github.com"> <i className="bi bi-github"></i> Github</a></li>
-                            <li>Data Collected at: <a className="text-muted" target="_blank" href="http://www.swanpp.com"> <img src={swanpng} width="19" height="19" /> Swan Ping Pong</a></li>
+                            <li>Data collected at: <a className="text-muted" target="_blank" href="http://www.swanpp.com"> <img src={swanpng} width="19" height="19" /> Swan Ping Pong</a></li>
+                            <li>Also collected at: <a className="text-muted" target="_blank" href="https://www.mmtta.io/"> <img src={mmtta} width="19" height="19" /> MMTTA </a></li>
                         </ul>
                     </div>
                 </div>
