@@ -149,7 +149,7 @@ const Demo = ({ id }) => {
                                     <td>Right relies on fast, well-placed serves.</td>
                                 </tr>
                                 <tr>
-                                        <td>Rally Wins (Shots ≥2)</td>
+                                    <td>Rally Wins (Shots ≥2)</td>
                                     <td>6 wins</td>
                                     <td>6 wins</td>
                                     <td>Equal skill in sustained rallies.</td>
