@@ -1,29 +1,31 @@
-.main_content {
-  opacity: 1;
-  animation-name: fadein;
-  animation-duration: 2s;
-}
-
 .background-video-container {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  top: 10%;
+  /* left: 10%; */
+  width: 80vw;
+  height: 60vh;
   z-index: 0;
   overflow: hidden;
+  border-radius: 20px;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .background-video-mask {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  top: 10%;
+  /* left: 10%; */
+  width: 80vw;
+  height: 60vh;
   z-index: 1;
   pointer-events: none;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
 }
 
 .title-content {
@@ -31,36 +33,50 @@
   z-index: 2;
   padding: 5em;
   width: 70vw;
-  height: 100vh;
+  height: 60vh;
+  align-items: center;
+  /* padding: 2em 1em; */
+}
+
+.main {
+  overflow: hidden;
+  min-height: 100vh;
+  width: 70vw;
 }
 
 .main-content {
   position: relative;
   z-index: 2;
-  padding: 3em;
-  width: 70vw;
+  padding-top: 3em;
+  /* padding: 3em; */
+  width: 80vw;
 }
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .background-video-container {
-    height: 100%;
-    min-height: 100vh;
-    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90vw;
+    height: 40vh;
+    border-radius: 15px;
   }
   
   .background-video-mask {
-    height: 100%;
-    min-height: 100vh;
-    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90vw;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
   }
-  
+
   .title-content {
-    padding: 2em 1em;
-    width: 95vw;
-    height: auto;
-    min-height: 80vh;
+    height: 40vh;
+    width: 90vw;
+    padding: 3em;
   }
+
   
   .title-content h1 {
     font-size: 2.5rem !important;
@@ -73,9 +89,9 @@
   .main-content {
     padding: 1em;
     width: 95vw;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
   }
 }
 

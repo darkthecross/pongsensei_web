@@ -13,14 +13,14 @@ function Home() {
     return (
         <>
             <Navbar />
-            <div className="container-fluid main bg-dark" style={{ overflow: 'hidden', minHeight: '100vh' }}>
+            <div className="container-fluid main bg-dark">
                 <div className="background-video-container">
                     <video
                         autoPlay
                         loop
                         muted
                         playsInline
-                        style={{ width: '100vw', height: '100vh', objectFit: 'cover' }}
+                        className="background-video"
                     >
                         <source src={home_bg_video} type="video/mp4" />
                         Your browser does not support the video tag.
