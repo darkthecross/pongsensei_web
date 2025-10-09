@@ -1,0 +1,14 @@
+.pong {
+    color: #0d64b2;
+}
+
+.sensei {
+    color: #36D1DC;
+}
+
+i {
+    /* set to not italic */
+    font-style: normal;
+    font-family: sans-serif;
+    text-shadow: 0 0 0.1em rgba(255, 255, 255, 0.5);
+}

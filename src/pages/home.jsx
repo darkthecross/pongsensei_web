@@ -33,7 +33,7 @@ function Home() {
                 <div className="title-content" data-bs-theme="dark">
                     <div className="row py-4">
                         <div className="col-12">
-                            <h1 className="display-1">PongSensei</h1>
+                            <h1 className="display-1"><i className="pong">Pong</i><i className="sensei">Sensei</i></h1>
                             <p className="lead text-body-secondary display-5">Professional table tennis video analysis for all.</p>
                         </div>
                     </div>

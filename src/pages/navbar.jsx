@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import './navbar.css';
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-dark bg-dark px-4 fixed-top">
-        <Link className="navbar-brand" to="/">PongSensei</Link>
+        <Link className="navbar-brand" to="/"><i className="pong">Pong</i><i className="sensei">Sensei</i></Link>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
