@@ -1,7 +1,7 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
-import home_bg_video from '../assets/home/home_bg_video_20250915.mp4';
+import home_bg_video from '../assets/home/home_bg_video_20251008.mp4';
 import clip_img from '../assets/home/clip_img.png';
 import enhancement_img from '../assets/home/enhancement_img.png';
 import stats_img from '../assets/home/strike_stats.png';
