@@ -8,16 +8,16 @@ function Footer() {
         <>
             <div className="pt-4 my-md-5 pt-md-5 border-top container-fluid bg-dark" data-bs-theme="dark">
                 <div className="row">
-                    <div className="col col-md">
+                    <div className="col-12 col-md-4">
                         <img className="mb-2" src="/assets/favicon.png" alt="" width="24" />
                         <h4>PongSensei</h4>
                         <small className="d-block mb-3 text-muted">&copy; 2025</small>
                     </div>
-                    <div className="col col-md">
+                    <div className="col-12 col-md-4">
                         <h5>Contacts</h5>
                         <ul className="list-unstyled text-small"><li className="text-muted"> <i className="bi bi-envelope"></i> <a className="u-email text-muted" href="mailto:info@pongsensei.com">info@pongsensei.com</a></li></ul>
                     </div>
-                    <div className="col col-md">
+                    <div className="col-12 col-md-4">
                         <h5>Links</h5>
                         <ul className="list-unstyled text-small">
                             <li>Hosted with ❤ by : <a className="text-muted" target="_blank" href="http://github.com"> <i className="bi bi-github"></i> Github</a></li>
